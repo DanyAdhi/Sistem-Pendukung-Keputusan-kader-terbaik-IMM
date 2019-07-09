@@ -53,7 +53,7 @@
 									<input type="password" name="password" class="form-control border" id="password" tabindex="2">
 								</div>
 								<div class="form-group text-right">
-									<button class="btn btn-primary" tabindex="3">
+									<button class="btn btn-danger" tabindex="3">
 										Login
 									</button>
 								</div>

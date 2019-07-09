@@ -23,24 +23,30 @@
         </div>
         <div class="col-lg-10 my-4 mt-5">
 
-
-          <form method="POST" action="<?=base_url('peserta') ?>">
-            <select class="custom-select text-dark d-inline-block" name="tahun" style="max-width: 11rem !important">
-              <option value="">--Pilih Tahun--</option>
-              <?php foreach ($tahun as $t): ?>
-                <option value="<?=$t->tahun ?>" <?=set_select('tahun', $t->tahun)?> ><?=$t->tahun?></option>
-              <?php endforeach; ?>
-            </select>
-            <button class="btn btn-info d-inline-block ml-3">Lihat</button>
-          </form>
-
+            <label class="text-dark font-weight-bold">Pilih Tahun Seleksi dan Angkatan</label>
+            <form method="POST" action="<?=base_url('peserta') ?>">
+              <div class="input-group col-lg-6 p-0" >
+                <select class="d-inline-block custom-select" name="tahun" id="tahun">
+                  <option value="">--Pilih Tahun--</option>
+                  <?php foreach ($tahun as $th): ?>
+                      <option value="<?=$th->tahun?>"><?=$th->tahun;?></option>
+                  <?php endforeach; ?>
+                </select>
+                <select class="d-inline-block custom-select" name="angkatan" id="angkatan">
+                  <option value="">--Pilih Angkatan--</option>
+                </select>
+                <button type="submit" class="btn btn-info btn-md ml-3" style="margin-left: -10px">Pilih</button>
+              </div>
+            </form>
 
 
         </div>
         <div class="col-lg-10 mt-5">
           <table class="table table-bordered table-striped">
             <tr>
-              <th>No</th>
+              <th width="10px">No</th>
+              <th width="90px">Angkatan</th>
+              <th width="150px">Tahun Seleksi</th>
               <th>NPM</th>
               <th>Nama</th>
               <th>Komisariat</th>
@@ -48,6 +54,8 @@
             <?php $no=1; foreach ($peserta as $p) { ?>
               <tr>
                 <td><?=$no?></td>
+                <td><?=$p->angkatan?></td>
+                <td><?=$p->tahunSeleksi?></td>
                 <td><?=$p->npm?></td>
                 <td><?=$p->nama?></td>
                 <td><?=$p->komisariat?></td>
@@ -61,3 +69,21 @@
   </section>
 
  
+
+ <script>
+    $(document).ready(function(){
+
+      $('#tahun').change(function(){
+        var tahun = $(this).val();
+        $.ajax({
+          type  : 'POST',
+          url   : '<?=base_url('admin/ranking/angkatanTahun')?>',
+          data  : 'tahun ='+tahun,
+          success : function(data){
+            console.log(data);
+            $('#angkatan').html(data);
+          }
+        });
+      });
+    });
+  </script>

@@ -28,14 +28,15 @@ class User extends CI_Controller {
 
 	public function peserta($tahun=null)
 	{	
-		$tahun = $this->input->post('tahun');
+		$tahun 		= $this->input->post('tahun');
+		$angkatan 	= $this->input->post('angkatan');
 
 		if($tahun!=null){
 			$data = [
 						'content'	=> $this->folder.('peserta'),
 						'section'	=> 'Peserta',
 						'tahun'		=> $this->model->getYearsMatrik()->result(),
-						'peserta' 	=> $this->model->get_by($this->table, 'tahun', $tahun)->result()
+						'peserta' 	=> $this->model->getRangkingUser($tahun, $angkatan)
 					];
 			$this->load->view('user/template', $data);
 		}else{
@@ -43,7 +44,7 @@ class User extends CI_Controller {
 						'content'	=> $this->folder.('peserta'),
 						'section'	=> 'Peserta',
 						'tahun'		=> $this->model->getYearsMatrik()->result(),
-						'peserta' 	=> $this->model->get_by('peserta', 'tahun', $tahun)->result()
+						'peserta' 	=> $this->model->getRangkingUser($tahun, $angkatan)
 					];
 			$this->load->view('user/template', $data);
 		}
@@ -55,9 +56,6 @@ class User extends CI_Controller {
 		$tahun 		= $this->input->post('tahun');
 		$angkatan 	= $this->input->post('angkatan');
 
-		// var_dump($_POST);die;
-		
-		
 		if($tahun!=null && $angkatan!=null){
 			$data = [
 						'content'	=> $this->folder.('rangking'),
