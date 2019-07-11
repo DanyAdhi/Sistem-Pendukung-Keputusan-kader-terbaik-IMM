@@ -77,7 +77,7 @@
         var tahun = $(this).val();
         $.ajax({
           type  : 'POST',
-          url   : '<?=base_url('admin/ranking/angkatanTahun')?>',
+          url   : '<?=base_url('user/angkatanTahun')?>',
           data  : 'tahun ='+tahun,
           success : function(data){
             console.log(data);
