@@ -66,7 +66,7 @@
 
       <div class="pt-4">
         <?php
-        $tahun = str_replace(['=','+','/'], ['-','_','~'], $this->encrypt->encode($th->tahun));
+        $tahun = str_replace(['=','+','/'], ['-','_','~'], $this->encrypt->encode($tahunSeleksi));
         
         if($btn==1){
           echo "<a href='".base_url('admin/ranking/proses/'.$tahun.'/'.$angkatan)."' class='btn btn-md btn-danger'>Proses Data</a>";

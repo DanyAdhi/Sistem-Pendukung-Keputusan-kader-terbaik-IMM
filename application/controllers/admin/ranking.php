@@ -21,25 +21,26 @@ class Ranking extends CI_Controller {
 		$tahun 		= $this->input->post('tahun');
 		$angkatan 	= $this->input->post('angkatan');
 		if($tahun!='' && $angkatan!=''){
-			$data = ['content'	=> $this->folder.('view'),
-					 'section'	=> $this->section,
-					 'pending'	=> count($this->model->tValidasi()),
-					 'invalid'	=> count($this->model->tInvalid()),
-					 'tampil'	=> $this->model->matrik($tahun, $angkatan),
-					 'tahun'	=> $this->model->getYearsMatrik()->result(),
-					 'th'		=> $tahun,
-					 'angkatan'	=> $angkatan,
-					 'btn'		=> 1
+			$data = ['content'			=> $this->folder.('view'),
+					 'section'			=> $this->section,
+					 'pending'			=> count($this->model->tValidasi()),
+					 'invalid'			=> count($this->model->tInvalid()),
+					 'tampil'			=> $this->model->matrik($tahun, $angkatan),
+					 'tahun'			=> $this->model->getYearsMatrik()->result(),
+					 'tahunSeleksi'		=> $tahun,
+					 'angkatan'			=> $angkatan,
+					 'btn'				=> 1
 					 ];
 			$this->load->view('template/template', $data);
 		}else{
-			$data = ['content'	=> $this->folder.('view'),
-					 'section'	=> $this->section,
-					 'pending'	=> count($this->model->tValidasi()),
-					 'invalid'	=> count($this->model->tInvalid()),
-					 'tampil'	=> $this->model->matrik('3000'),
-					 'tahun'	=> $this->model->getYearsMatrik()->result(),
-					 'btn'		=> ''
+			$data = ['content'			=> $this->folder.('view'),
+					 'section'			=> $this->section,
+					 'pending'			=> count($this->model->tValidasi()),
+					 'invalid'			=> count($this->model->tInvalid()),
+					 'tampil'			=> $this->model->matrik('3000'),
+					 'tahun'			=> $this->model->getYearsMatrik()->result(),
+					 'tahunSeleksi'		=> $tahun,
+					 'btn'				=> ''
 					 ];
 			$this->load->view('template/template', $data);
 			

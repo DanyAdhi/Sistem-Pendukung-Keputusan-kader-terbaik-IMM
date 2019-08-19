@@ -40,7 +40,7 @@ class Validasi extends CI_Controller {
 	public function valid()
 	{
 		$data = ['content'	=> $this->folder.('valid'),
-				 'section'	=> 'Invalid',
+				 'section'	=> 'Valid',
 				 'pending'	=> count($this->model->tValidasi()),
 				 'invalid'	=> count($this->model->tInvalid()),
 				 'tampil'	=> $this->model->tValid()

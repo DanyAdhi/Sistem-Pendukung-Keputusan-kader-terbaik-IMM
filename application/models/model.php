@@ -90,7 +90,7 @@ class Model extends CI_Model{
 	{
 		return	$this->db->select('a.*, b.nama')
         		->from('matrik as a')
-        		->join('peserta as b','a.npm=b.npm', 'left')
+        		->join('peserta as b','a.npm=b.npm', 'inner')
         		->where("a.angkatan=$angkatan")
         		->where("a.tahunSeleksi=$thn")
          		->get()->result();

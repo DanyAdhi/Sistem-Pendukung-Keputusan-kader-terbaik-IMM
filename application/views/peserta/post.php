@@ -15,7 +15,7 @@
               <form class="user" method="POST" action="<?=base_url('admin/peserta/save')?>">
                 <div class="form-group mb-3">
                   <label class="text-dark">Angkatan</label>
-                  <input type="text" class="form-control" placeholder="Tahun Seleksi..." name="angkatan" value="<?=set_value('angkatan') ?>" onkeypress="return inputAngka(event)">
+                  <input type="text" class="form-control" placeholder="Tahun Angkatan..." name="angkatan" value="<?=set_value('angkatan') ?>" onkeypress="return inputAngka(event)">
                   <?=form_error('angkatan', "<small class='text-danger'>",'</small>') ?>
                 </div>
                 <div class="form-group mb-3">
