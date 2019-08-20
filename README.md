@@ -45,3 +45,16 @@ Software yang diperlukan untuk menjalankan aplikasi ini adalah
 		<img src='https://github.com/DanyAdhi/Sistem-Pendukung-Keputusan-kader-terbaik-IMM/blob/master/screenshoot/admin%207.png'  width=400 />
   </span>
 </p>
+
+
+## Screenshot Halaman User
+<p><img src='https://github.com/DanyAdhi/Sistem-Pendukung-Keputusan-kader-terbaik-IMM/blob/master/screenshoot/user%201.png'  width=400 /></p>
+<p><img src='https://github.com/DanyAdhi/Sistem-Pendukung-Keputusan-kader-terbaik-IMM/blob/master/screenshoot/user%202.png'  width=400 /></p>
+<p align='Left' valign='top'>
+<span>
+	<img src='https://github.com/DanyAdhi/Sistem-Pendukung-Keputusan-kader-terbaik-IMM/blob/master/screenshoot/user%203.png'  width=400 />
+	<img src='https://github.com/DanyAdhi/Sistem-Pendukung-Keputusan-kader-terbaik-IMM/blob/master/screenshoot/user%204.png'  width=400 />
+	<img src='https://github.com/DanyAdhi/Sistem-Pendukung-Keputusan-kader-terbaik-IMM/blob/master/screenshoot/user%205.png'  width=400 />
+	<img src='https://github.com/DanyAdhi/Sistem-Pendukung-Keputusan-kader-terbaik-IMM/blob/master/screenshoot/user%206.png'  width=400 />
+  </span>
+</p>
