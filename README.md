@@ -46,6 +46,8 @@ Software yang diperlukan untuk menjalankan aplikasi ini adalah
   </span>
 </p>
 
+<br />
+<br />
 
 ## Screenshot Halaman User
 <p><img src='https://github.com/DanyAdhi/Sistem-Pendukung-Keputusan-kader-terbaik-IMM/blob/master/screenshoot/user%201.png'  width=400 /></p>
@@ -58,3 +60,9 @@ Software yang diperlukan untuk menjalankan aplikasi ini adalah
 	<img src='https://github.com/DanyAdhi/Sistem-Pendukung-Keputusan-kader-terbaik-IMM/blob/master/screenshoot/user%206.png'  width=400 />
   </span>
 </p>
+
+<br />
+<br />
+
+## Kontak
+danyadhi4149@gmail.com
