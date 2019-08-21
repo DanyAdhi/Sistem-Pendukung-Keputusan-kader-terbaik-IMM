@@ -7,11 +7,11 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0-green.svg)](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 [![SB Admin 2](https://img.shields.io/badge/%20-Vali%20Admin-blue.svg)](https://startbootstrap.com/themes/sb-admin-2/)
 
-Ini adalah aplikasi sistem pengambil keputusan untuk kader terbaik IMM Universitas Muhammadiyah Bengkulu. 
-Saya membuat aplikasi ini menggunakan Framework Codeigniter 3 untuk backend-nya dan framework bootstrap 4 untuk tampilannya sedangkan untuk metode dalam pengambil keputusannya saya menggunakan metode SAW (Simple Additive Weighting). 
-Sistem pendukung keputusan (Inggris: decision support systems disingkat DSS) adalah bagian dari sistem informasi berbasis komputer (termasuk sistem berbasis pengetahuan (manajemen pengetahuan)) yang dipakai untuk mendukung pengambilan keputusan dalam suatu organisasi atau perusahaan. 
-Dapat juga dikatakan sebagai sistem komputer yang mengolah data menjadi informasi untuk mengambil keputusan dari masalah semi-terstruktur yang spesifik.[Wikipedia](https://id.wikipedia.org/wiki/Sistem_pendukung_keputusan)
-	Metode SAW sering dikenal dengan istilah metode penjumlahan terbobot. Konsep dasar metode SAW (Simple Additive Weighting) adalah mencari penjumlahan terbobot dari rating kinerja pada setiap alternatif pada semua atribut. Metode SAW dapat membantu dalam pengambilan keputusan suatu kasus, akan tetapi perhitungan dengan menggunakan metode SAW ini hanya yang menghasilkan nilai terbesar yang akan terpilih sebagai alternatif yang terbaik. Perhitungan akan sesuai dengan metode ini apabila alternatif yang terpilih memenuhi kriteria yang telah ditentukan. (https://informasi-anakutm.blogspot.com/2016/06/cara-perhitungan-dan-contoh-kasus.html)
+&emsp; &emsp; Ini adalah aplikasi sistem pengambil keputusan untuk kader terbaik IMM Universitas Muhammadiyah Bengkulu. 
+Saya membuat aplikasi ini menggunakan Framework Codeigniter 3 untuk backend-nya dan framework bootstrap 4 untuk tampilannya sedangkan untuk metode dalam pengambil keputusannya saya menggunakan metode SAW (Simple Additive Weighting). <br />
+&emsp; &emsp; Sistem pendukung keputusan (Inggris: decision support systems disingkat DSS) adalah bagian dari sistem informasi berbasis komputer (termasuk sistem berbasis pengetahuan (manajemen pengetahuan)) yang dipakai untuk mendukung pengambilan keputusan dalam suatu organisasi atau perusahaan. <br />
+Dapat juga dikatakan sebagai sistem komputer yang mengolah data menjadi informasi untuk mengambil keputusan dari masalah semi-terstruktur yang spesifik.[Wikipedia](https://id.wikipedia.org/wiki/Sistem_pendukung_keputusan) <br />
+&emsp; &emsp; Metode SAW sering dikenal dengan istilah metode penjumlahan terbobot. Konsep dasar metode SAW (Simple Additive Weighting) adalah mencari penjumlahan terbobot dari rating kinerja pada setiap alternatif pada semua atribut. Metode SAW dapat membantu dalam pengambilan keputusan suatu kasus, akan tetapi perhitungan dengan menggunakan metode SAW ini hanya yang menghasilkan nilai terbesar yang akan terpilih sebagai alternatif yang terbaik. Perhitungan akan sesuai dengan metode ini apabila alternatif yang terpilih memenuhi kriteria yang telah ditentukan. (https://informasi-anakutm.blogspot.com/2016/06/cara-perhitungan-dan-contoh-kasus.html)
 	
 	
 ## Fitur
