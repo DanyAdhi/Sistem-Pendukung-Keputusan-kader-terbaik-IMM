@@ -7,17 +7,20 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0-green.svg)](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 [![SB Admin 2](https://img.shields.io/badge/%20-Vali%20Admin-blue.svg)](https://startbootstrap.com/themes/sb-admin-2/)
 
-Ini adalah aplikasi sistem pengambil keputusan untuk kader terbaik IMM Universitas Muhammadiyah Bengkulu. Saya membuat aplikasi ini menggunakan Framework Codeigniter 3 untuk backend-nya dan framework bootstrap 4 untuk tampilannya. 
-Sistem pendukung keputusan (Inggris: decision support systems disingkat DSS) adalah bagian dari sistem informasi berbasis komputer (termasuk sistem berbasis pengetahuan (manajemen pengetahuan)) yang dipakai untuk mendukung pengambilan keputusan dalam suatu organisasi atau perusahaan. Dapat juga dikatakan sebagai sistem komputer yang mengolah data menjadi informasi untuk mengambil keputusan dari masalah semi-terstruktur yang spesifik. Menurut Moore and Chang, SPK dapat digambarkan sebagai sistem yang berkemampuan mendukung analisis ad hoc data, dan pemodelan keputusan, berorientasi keputusan, orientasi perencanaan masa depan, dan digunakan pada saat-saat tidak biasa. [Wikipedia](https://id.wikipedia.org/wiki/Sistem_pendukung_keputusan)
-
+Ini adalah aplikasi sistem pengambil keputusan untuk kader terbaik IMM Universitas Muhammadiyah Bengkulu. 
+Saya membuat aplikasi ini menggunakan Framework Codeigniter 3 untuk backend-nya dan framework bootstrap 4 untuk tampilannya sedangkan untuk metode dalam pengambil keputusannya saya menggunakan metode SAW (Simple Additive Weighting). 
+Sistem pendukung keputusan (Inggris: decision support systems disingkat DSS) adalah bagian dari sistem informasi berbasis komputer (termasuk sistem berbasis pengetahuan (manajemen pengetahuan)) yang dipakai untuk mendukung pengambilan keputusan dalam suatu organisasi atau perusahaan. 
+Dapat juga dikatakan sebagai sistem komputer yang mengolah data menjadi informasi untuk mengambil keputusan dari masalah semi-terstruktur yang spesifik.[Wikipedia](https://id.wikipedia.org/wiki/Sistem_pendukung_keputusan)
+	Metode SAW sering dikenal dengan istilah metode penjumlahan terbobot. Konsep dasar metode SAW (Simple Additive Weighting) adalah mencari penjumlahan terbobot dari rating kinerja pada setiap alternatif pada semua atribut. Metode SAW dapat membantu dalam pengambilan keputusan suatu kasus, akan tetapi perhitungan dengan menggunakan metode SAW ini hanya yang menghasilkan nilai terbesar yang akan terpilih sebagai alternatif yang terbaik. Perhitungan akan sesuai dengan metode ini apabila alternatif yang terpilih memenuhi kriteria yang telah ditentukan. (https://informasi-anakutm.blogspot.com/2016/06/cara-perhitungan-dan-contoh-kasus.html)
+	
+	
 ## Fitur
 Fitur yang tersedia diaplikasi ini adalah
-1. Crud Menu of Food and Drink 
-2. Crud Gallery
-3. change status available drink or food
-4. Crud user with access level (admin or cashier)
-5. Sales transaction
-6. Sales report (day, month, years)
+1. Crud data Komisariat IMM 
+2. Crud data tahun seleksi
+3. Crud data peserta seleksi
+4. Validasi input data dari peserta
+5. Perangkingan data menggunkan metode SAW
 
 ## Kebutuhan
 Software yang diperlukan untuk menjalankan aplikasi ini adalah
