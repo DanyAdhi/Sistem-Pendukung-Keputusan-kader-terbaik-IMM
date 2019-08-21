@@ -5,7 +5,7 @@
 
 [![Codeigniter](https://img.shields.io/badge/Codeigniter-3.0-red.svg)](https://www.codeigniter.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0-green.svg)](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-[![SB Admin 2](https://img.shields.io/badge/%20-Vali%20Admin-blue.svg)](https://startbootstrap.com/themes/sb-admin-2/)
+[![SB Admin 2](https://img.shields.io/badge/%20-SB%20Admin%202-blue.svg)](https://startbootstrap.com/themes/sb-admin-2/)
 
 &emsp; &emsp; Ini adalah aplikasi sistem pengambil keputusan untuk kader terbaik IMM Universitas Muhammadiyah Bengkulu. 
 Saya membuat aplikasi ini menggunakan Framework Codeigniter 3 untuk backend-nya dan framework bootstrap 4 untuk tampilannya sedangkan untuk metode dalam pengambil keputusannya saya menggunakan metode SAW (Simple Additive Weighting). <br />
